@@ -11,7 +11,8 @@ namespace week01
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            helloWorldLabel.Text = "HOHOHOHO, My first try!!!";
+            mytimelabel.Text = DateTime.Now.ToString();
         }
     }
 }
